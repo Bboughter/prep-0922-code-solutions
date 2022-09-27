@@ -5,8 +5,8 @@ const person = {
 };
 console.log(person);
 
-person.fullName = 'Michael Wood';
-console.log("The person's name is:", person.fullName);
+var fullName = person.firstName + ' ' + person.lastName;
+console.log("The person's name is:", fullName);
 
 person.job = 'chef';
 console.log('The person\'s current job is:', person.job);
